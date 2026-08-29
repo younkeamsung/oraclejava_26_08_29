@@ -1,0 +1,33 @@
+@MovieStore.Api_HostAddress = http://localhost:5208
+
+GET {{MovieStore.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET http://localhost:5208/movies
+
+###
+GET http://localhost:5208/movies/1
+
+###
+POST http://localhost:5208/movies
+Content-Type: application/json
+{
+  "Name" : "돼지가 우물에 빠진날",
+  "Genre" : "액션/어드벤처",
+  "Price" : 10,
+  "ReleaseYear" : 2012 
+}
+
+###
+PUT http://localhost:5208/movies/1
+Content-Type: application/json
+{
+    "name": "돼지가 우물에 빠진날",
+    "genre": "액션/어드벤처",
+    "price": 5500,
+    "releaseYear": 2025
+  }
+
+###
+DELETE http://localhost:5208/movies/1
