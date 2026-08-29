@@ -1,4 +1,7 @@
-﻿using MovieStore.Api.Dtos;
+﻿using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using MovieStore.Api.Data;
+using MovieStore.Api.Dtos;
+using MovieStore.Api.Models;
 
 namespace MovieStore.Api.Endpoints;
 
@@ -25,16 +28,18 @@ public static class MovieEndPoints
             return movie is null ? Results.NotFound() : Results.Ok(movie);
         }).WithName(GetMovieEndPointName);
 
-        group.MapPost("/", (CreateMovieDto newMovie) =>
+        group.MapPost("/", (CreateMovieDto newMovie, 
+            MovieStoreContext dbContext) =>
         {
-            MovieDto movie = new(
-                movies.Count + 1,
-                newMovie.Name,
-                newMovie.Genre,
-                newMovie.Price,
-                newMovie.ReleaseYear
-                );
-            movies.Add(movie);
+            Movie movie = new Movie
+            {
+                Name = newMovie.Name,
+                GenreId = newMovie.GenreId,
+                Price = newMovie.Price,
+                ReleaseYear = newMovie.ReleaseYear
+            };
+            dbContext.Movies.Add(movie);
+            dbContext.SaveChanges();
 
             return Results.CreatedAtRoute(GetMovieEndPointName, new { id = movie.Id }, movie);
         });

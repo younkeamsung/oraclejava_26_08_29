@@ -13,10 +13,10 @@ GET http://localhost:5208/movies/1
 POST http://localhost:5208/movies
 Content-Type: application/json
 {
-  "Name" : "돼지가 우물에 빠진날",
-  "Genre" : "액션/어드벤처",
-  "Price" : 10,
-  "ReleaseYear" : 2012 
+  "Name" : "썬더볼츠",
+  "GenreId" : 1,
+  "Price" : 1000,
+  "ReleaseYear" : 2025 
 }
 
 ###

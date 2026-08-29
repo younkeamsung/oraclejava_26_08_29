@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\endpoints\\movieendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\endpoints\\movieendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +13,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\moviestore.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\moviestore.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|c:\\users\\a\\source\\repos\\moviestore.api\\moviestore.api\\data\\moviestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{764CB9D1-DC93-9A7F-CE05-AB2D15473B53}|MovieStore.Api\\MovieStore.Api.csproj|solutionrelative:moviestore.api\\data\\moviestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,48 +46,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieDto.cs",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\MovieDto.cs",
-              "RelativeDocumentMoniker": "MovieStore.Api\\Dtos\\MovieDto.cs",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\MovieDto.cs",
-              "RelativeToolTip": "MovieStore.Api\\Dtos\\MovieDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieStore.Api\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Models\\Genre.cs",
+              "RelativeToolTip": "MovieStore.Api\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T02:49:56.399Z",
-              "IsPinned": true
+              "WhenOpened": "2026-08-29T09:12:44.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovieEndPoints.cs",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
-              "RelativeDocumentMoniker": "MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
-              "RelativeToolTip": "MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MovieStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Data\\MovieStoreContext.cs",
+              "RelativeDocumentMoniker": "MovieStore.Api\\Data\\MovieStoreContext.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Data\\MovieStoreContext.cs",
+              "RelativeToolTip": "MovieStore.Api\\Data\\MovieStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T04:55:13.537Z"
+              "WhenOpened": "2026-08-29T08:50:08.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UpdateMovieDto.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\UpdateMovieDto.cs",
               "RelativeDocumentMoniker": "MovieStore.Api\\Dtos\\UpdateMovieDto.cs",
               "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\UpdateMovieDto.cs",
               "RelativeToolTip": "MovieStore.Api\\Dtos\\UpdateMovieDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T04:32:38.717Z"
+              "WhenOpened": "2026-08-29T08:49:26.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\MovieDto.cs",
+              "RelativeDocumentMoniker": "MovieStore.Api\\Dtos\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\MovieDto.cs",
+              "RelativeToolTip": "MovieStore.Api\\Dtos\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:49:28.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieStore.Api\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieStore.Api\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:49:20.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieStore.Api.http",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\MovieStore.Api.http",
+              "RelativeDocumentMoniker": "MovieStore.Api\\MovieStore.Api.http",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\MovieStore.Api.http",
+              "RelativeToolTip": "MovieStore.Api\\MovieStore.Api.http",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-29T08:48:16.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CreateMovieDto.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Dtos\\CreateMovieDto.cs",
               "RelativeDocumentMoniker": "MovieStore.Api\\Dtos\\CreateMovieDto.cs",
@@ -83,29 +136,31 @@
               "RelativeToolTip": "MovieStore.Api\\Dtos\\CreateMovieDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T03:04:12.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MovieStore.Api.http",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\MovieStore.Api.http",
-              "RelativeDocumentMoniker": "MovieStore.Api\\MovieStore.Api.http",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\MovieStore.Api.http",
-              "RelativeToolTip": "MovieStore.Api\\MovieStore.Api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-08-29T02:28:54.986Z"
+              "WhenOpened": "2026-08-29T08:39:27.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MovieEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
+              "RelativeDocumentMoniker": "MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
+              "RelativeToolTip": "MovieStore.Api\\Endpoints\\MovieEndPoints.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:30:41.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Program.cs",
               "RelativeDocumentMoniker": "MovieStore.Api\\Program.cs",
               "ToolTip": "C:\\Users\\A\\source\\repos\\MovieStore.Api\\MovieStore.Api\\Program.cs",
               "RelativeToolTip": "MovieStore.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T01:36:36.278Z",
               "EditorCaption": ""
