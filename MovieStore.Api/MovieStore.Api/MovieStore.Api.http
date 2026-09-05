@@ -7,16 +7,19 @@ Accept: application/json
 GET http://localhost:5208/movies
 
 ###
-GET http://localhost:5208/movies/1
+GET http://localhost:5208/genres
+
+###
+GET http://localhost:5208/movies/5
 
 ###
 POST http://localhost:5208/movies
 Content-Type: application/json
 {
-  "Name" : "썬더볼츠",
-  "GenreId" : 1,
-  "Price" : 1000,
-  "ReleaseYear" : 2025 
+  "name" : "스파이더맨",
+  "genreId" : 1,
+  "price" : 4500,
+  "releaseYear" : 2025 
 }
 
 ###
@@ -24,7 +27,7 @@ PUT http://localhost:5208/movies/1
 Content-Type: application/json
 {
     "name": "돼지가 우물에 빠진날",
-    "genre": "액션/어드벤처",
+    "genreId": 1,
     "price": 5500,
     "releaseYear": 2025
   }

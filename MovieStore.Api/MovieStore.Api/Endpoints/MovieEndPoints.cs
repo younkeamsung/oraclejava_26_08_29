@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using MovieStore.Api.Data;
 using MovieStore.Api.Dtos;
 using MovieStore.Api.Models;
@@ -9,26 +10,33 @@ public static class MovieEndPoints
 {
     const string GetMovieEndPointName = "GetMovie";
 
-    private static readonly List<MovieDto> movies = [
-    new MovieDto(1, "썬더볼츠", "액션/어드벤처", 5000M, 2025),
-    new MovieDto(2, "쥬라기월드", "액션/어드벤처", 1400M, 2025),
-    new MovieDto(3, "블랙아담", "액션/어드벤처", 500M, 2022)
-    ];
     public static void MapMoviesEndPoints(this WebApplication app)
     {
 
         var group = app.MapGroup("/movies");
 
-        group.MapGet("/", () => movies);
+        group.MapGet("/", async (MovieStoreContext dbContext)
+        => await dbContext.Movies
+            .Include(movie => movie.Genre)
+            .Select(movie => new MovieSummaryDto(
+                movie.Id, movie.Name, movie.Genre!.Name,
+                movie.Price, 
+                movie.ReleaseYear))
+            .AsNoTracking()
+            .ToArrayAsync());
 
-        group.MapGet("/{id}", (int id) =>
+        group.MapGet("/{id}", async (int id, MovieStoreContext dbContext) =>
         {
-            var movie = movies.Find(movie => movie.Id == id);
+            var movie = await dbContext.Movies.FindAsync(id);
             //return movie;
-            return movie is null ? Results.NotFound() : Results.Ok(movie);
+
+            return movie is null ? Results.NotFound()
+                : Results.Ok(new MovieDetailsDto(
+                    movie.Id, movie.Name, movie.GenreId,
+                    movie.Price, movie.ReleaseYear, "damansa"));
         }).WithName(GetMovieEndPointName);
 
-        group.MapPost("/", (CreateMovieDto newMovie, 
+        group.MapPost("/", async (CreateMovieDto newMovie, 
             MovieStoreContext dbContext) =>
         {
             Movie movie = new Movie
@@ -39,28 +47,39 @@ public static class MovieEndPoints
                 ReleaseYear = newMovie.ReleaseYear
             };
             dbContext.Movies.Add(movie);
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
 
-            return Results.CreatedAtRoute(GetMovieEndPointName, new { id = movie.Id }, movie);
+            MovieDetailsDto movieDto = new MovieDetailsDto(
+                movie.Id, movie.Name, movie.GenreId, movie.Price, 
+                movie.ReleaseYear, "아놔~"); ;
+            return Results.CreatedAtRoute(GetMovieEndPointName, new { id = movie.Id }, movieDto);
         });
 
-        group.MapPut("/{id}", (int id, UpdateMovieDto updatedMovie) =>
+        group.MapPut("/{id}", async (int id, UpdateMovieDto updatedMovie,
+            MovieStoreContext dbContext) =>
         {
-            var index = movies.FindIndex(movie => movie.Id == id);
-            if (index == -1)
+            //var index = movies.FindIndex(movie => movie.Id == id);
+            var existingMovie = await dbContext.Movies.FindAsync(id);
+            if (existingMovie is null)
             {
                 return Results.NotFound();
             }
-            movies[index] = new MovieDto(
-                id, updatedMovie.Name, updatedMovie.Genre,
-                updatedMovie.Price, updatedMovie.ReleaseYear
-                );
+            existingMovie.Name = updatedMovie.Name;
+            existingMovie.GenreId = updatedMovie.GenreId;
+            existingMovie.Price = updatedMovie.Price;
+            existingMovie.ReleaseYear = updatedMovie.ReleaseYear;
+
+            await dbContext.SaveChangesAsync();
+
+
             return Results.NoContent();
         });
 
-        group.MapDelete("/{id}", (int id) =>
+        group.MapDelete("/{id}", async (int id, MovieStoreContext dbContext) =>
         {
-            movies.RemoveAll(movie => movie.Id == id);
+            //movies.RemoveAll(movie => movie.Id == id);
+            await dbContext.Movies.Where(movie => movie.Id == id)
+                    .ExecuteDeleteAsync();
             return Results.NoContent();
         });
     }

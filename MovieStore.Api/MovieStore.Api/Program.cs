@@ -15,6 +15,7 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.MapMoviesEndPoints();   //MovieEndPoints
+app.MapGenreEndPoints();    //GenreEndPoints
 
 
 app.Run();
