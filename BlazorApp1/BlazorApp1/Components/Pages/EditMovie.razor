@@ -1,0 +1,73 @@
+﻿@page "/editmovie"
+@inject NavigationManager NavigationManager
+@inject MoviesClient MoviesClient
+
+<h3>영화 추가</h3>
+
+@if (genres is null)
+{
+    <p><em>로딩중....</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm Model="@movie" FormName="editMovie"
+                OnSubmit="HandleSubmit">
+                <div class="mb-3">
+                    <label for="name" class="form-label">제목:</label>
+                    <InputText class="form-control" id="name" @bind-value="movie.Name"/>
+
+                </div>
+                <div class="mb-3">
+                    <label for="genreId" class="form-label">장르:</label>
+                    <InputSelect class="form-select" id="genreId" @bind-value="movie.GenreId">
+                        <option value="">장르 선택</option>
+                        @foreach (var genre in genres)
+                        {
+                            <option value="@genre.Id">@genre.Name</option>
+                        }
+                    </InputSelect>
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">가격:</label>
+                    <InputNumber class="form-control" id="price" @bind-value="movie.Price" />
+
+                </div>
+                <div class="mb-3">
+                    <label for="releaseYear" class="form-label">출시년도:</label>
+                    <InputNumber class="form-control" id="releaseYear" 
+                    @bind-value="movie.ReleaseYear" />
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    [SupplyParameterFromForm] //폼으로 파라미터를 보내주는 어노테이션
+    private MovieDetails movie { get; set; } = new()
+        {
+            Name = string.Empty,
+            ReleaseYear = DateOnly.FromDateTime(DateTime.UtcNow).Year // 영국시간
+        };
+
+    private GenreClient genreClient = new();
+    // private MoviesClient moviesClient = new();
+
+    private Genre[]? genres;
+
+    protected override void OnInitialized()
+    {
+        genres = genreClient.GetGenres();
+    }
+
+    private void HandleSubmit()
+    {
+        MoviesClient.AddMovie(movie);
+        NavigationManager.NavigateTo("/");
+    }
+}

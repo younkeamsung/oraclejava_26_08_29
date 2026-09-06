@@ -1,0 +1,21 @@
+﻿@page "/AlchoholResult"
+
+<PageTitle>결과</PageTitle>
+<h3>결과</h3>
+
+@if(Age < 19)
+{
+    <p>만 19세 미만은 음주가 불가능 합니다.</p>
+}
+else
+{
+    <p>음주 가능</p>
+}
+
+<p>
+    <a href="/Alchohol">돌아가기</a>
+</p>
+@code {
+    [SupplyParameterFromQuery]
+    public int Age { get; set; }
+}

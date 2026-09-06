@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\alchohol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|c:\\users\\a\\source\\repos\\alchohol\\alchohol\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|solutionrelative:alchohol\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|c:\\users\\a\\source\\repos\\alchohol\\alchohol\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|solutionrelative:alchohol\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|c:\\users\\a\\source\\repos\\alchohol\\alchohol\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBC9A1D5-8A00-93AC-3EC8-D0C31EFCBD96}|alchohol\\alchohol.csproj|solutionrelative:alchohol\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "alchohol\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "alchohol\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T07:18:19.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Components\\App.razor",
+              "RelativeDocumentMoniker": "alchohol\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Components\\App.razor",
+              "RelativeToolTip": "alchohol\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAADUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T07:16:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "alchohol\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\alchohol\\alchohol\\Properties\\launchSettings.json",
+              "RelativeToolTip": "alchohol\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-06T07:16:01.287Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

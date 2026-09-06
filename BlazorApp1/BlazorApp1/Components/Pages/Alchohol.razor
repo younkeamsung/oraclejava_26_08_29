@@ -1,0 +1,22 @@
+﻿@page "/Alchohol"
+
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+<PageTitle>식당 음주 가능 여부 조회</PageTitle>
+
+<h3>식당 음주 가능 여부 조회</h3>
+
+<div>
+    <label> 나이 입력: <InputNumber @bind-Value="age" style="text-align: right" />
+    </label>
+    <button @onclick="Search">조회</button>
+</div>
+
+@code {
+    private int age;
+    private void Search()
+    {
+        NavigationManager.NavigateTo($"/AlchoholResult?age={age}");
+    }
+}

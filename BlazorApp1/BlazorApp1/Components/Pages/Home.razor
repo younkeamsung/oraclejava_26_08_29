@@ -1,0 +1,49 @@
+﻿@page "/"
+@inject MoviesClient MoviesClient
+<PageTitle>영화 목록</PageTitle>
+
+<div class="mt-2">
+    <a class="btn btn-primary" role="button" href="/editmovie">영화 추가</a>
+</div>
+
+@if (movies is null)
+{
+    <p><em>로딩중....</em></p>
+}
+else
+{
+    <table class="table table-striped table-bordered table-hover mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>제목</th>
+                <th>장르</th>
+                <th class="text-end">가격</th>
+                <th>출시 년도</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in movies)
+            {
+                <tr>
+                    <td>@movie.Id</td>
+                    <td>@movie.Name</td>
+                    <td>@movie.Genre</td>
+                    <td class="text-end">@movie.Price.ToString("C0")</td>
+                    <td>@(movie.ReleaseYear)년</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    //private MoviesClient client = new();
+
+    private MovieSummary[]? movies; // null일수도 있다.
+
+    protected override void OnInitialized() // 사이트에 접속하게되면 한번만 호출된다.
+    {
+        movies = MoviesClient.GetMovies();
+
+    }
+}
