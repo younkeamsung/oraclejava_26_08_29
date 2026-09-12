@@ -25,8 +25,6 @@ C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\scopedcss\bundle
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\scopedcss\projectbundle\BlazorApp1.bundle.scp.css
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\6qya1t2u31-{0}-4kywy7iv6g-4kywy7iv6g.gz
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\ji2b4vgiux-{0}-abdmv1u4y3-abdmv1u4y3.gz
-C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\tefv0zeckk-{0}-wyu7y4jcvb-wyu7y4jcvb.gz
-C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\knsgek38oy-{0}-wfr2hj6447-wfr2hj6447.gz
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\fe95vulehx-{0}-fr7d87ffz4-fr7d87ffz4.gz
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\e76fe7a2nx-{0}-fr7d87ffz4-fr7d87ffz4.gz
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\staticwebassets.build.json
@@ -39,3 +37,10 @@ C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\refint\BlazorApp
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\BlazorApp1.pdb
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\ref\BlazorApp1.dll
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\tefv0zeckk-{0}-9hsif5t8mt-9hsif5t8mt.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\knsgek38oy-{0}-dwu72t6gfx-dwu72t6gfx.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\a0oef3ygls-{0}-d62xm6qtpr-d62xm6qtpr.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\wlqiloh1lr-{0}-y6q30524bn-y6q30524bn.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\9fdk9n71va-{0}-180dmtdpho-180dmtdpho.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\7cpvpnx7pk-{0}-g3h7a9wx5y-g3h7a9wx5y.gz
+C:\Users\A\source\repos\BlazorApp1\BlazorApp1\obj\Debug\net10.0\compressed\2f6q567wbk-{0}-z36mswsfk2-z36mswsfk2.gz

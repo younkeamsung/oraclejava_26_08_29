@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\alchohol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\alchohol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\alchoholresult.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\alchoholresult.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\wwwroot\\react\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\react\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\clients\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\clients\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\editmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\editmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\clients\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\clients\\moviesclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\validations\\moviepriceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\validations\\moviepriceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\validations\\moviereleaseyearattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\validations\\moviereleaseyearattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\moviesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\moviesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\clients\\genreclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\clients\\genreclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\converters\\stringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\converters\\stringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,24 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BlazorApp1\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BlazorApp1\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-06T07:46:47.515Z",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\wwwroot\\react\\index.html",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\react\\index.html",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\wwwroot\\react\\index.html",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\react\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-12T08:40:51.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
@@ -79,71 +95,60 @@
               "RelativeToolTip": "BlazorApp1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-06T07:46:43.017Z",
+              "WhenOpened": "2026-09-12T08:06:20.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlchoholResult.razor",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\AlchoholResult.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\AlchoholResult.razor",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\AlchoholResult.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\AlchoholResult.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T07:43:55.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Alchohol.razor",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Alchohol.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Alchohol.razor",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Alchohol.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Alchohol.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T07:39:11.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeToolTip": "BlazorApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MovieReleaseYearAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
+              "RelativeToolTip": "BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T07:22:20.122Z",
+              "WhenOpened": "2026-09-12T07:07:12.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoviePriceAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MoviePriceAttribute.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Validations\\MoviePriceAttribute.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MoviePriceAttribute.cs",
+              "RelativeToolTip": "BlazorApp1\\Validations\\MoviePriceAttribute.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T06:53:30.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GenreClient.cs",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\GenreClient.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Clients\\GenreClient.cs",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\GenreClient.cs",
-              "RelativeToolTip": "BlazorApp1\\Clients\\GenreClient.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAAcAAAAAAAAAA==",
+              "Title": "MovieSummary.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieSummary.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\MovieSummary.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieSummary.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\MovieSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T06:09:23.302Z"
+              "WhenOpened": "2026-09-12T04:13:52.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\Genre.cs",
-              "RelativeToolTip": "BlazorApp1\\Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T06:07:41.832Z"
+              "Title": "DeleteMovie.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-12T03:07:30.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -153,46 +158,111 @@
               "RelativeDocumentMoniker": "BlazorApp1\\Models\\MovieDetails.cs",
               "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieDetails.cs",
               "RelativeToolTip": "BlazorApp1\\Models\\MovieDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T05:40:32.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditMovie.razor",
-              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\EditMovie.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
-              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\EditMovie.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T05:27:04.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MoviesClient.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\MoviesClient.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Clients\\MoviesClient.cs",
               "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\MoviesClient.cs",
               "RelativeToolTip": "BlazorApp1\\Clients\\MoviesClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T04:59:22.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "EditMovie.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\EditMovie.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\EditMovie.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-06T05:27:04.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T07:22:20.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorApp1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorApp1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-06T07:46:47.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\Genre.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T06:07:41.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenreClient.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\GenreClient.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Clients\\GenreClient.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\GenreClient.cs",
+              "RelativeToolTip": "BlazorApp1\\Clients\\GenreClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T06:09:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StringConverter.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Converters\\StringConverter.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Converters\\StringConverter.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Converters\\StringConverter.cs",
+              "RelativeToolTip": "BlazorApp1\\Converters\\StringConverter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T06:16:32.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-06T02:25:49.233Z",
               "EditorCaption": ""

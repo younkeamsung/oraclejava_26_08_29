@@ -10,7 +10,7 @@ GET http://localhost:5208/movies
 GET http://localhost:5208/genres
 
 ###
-GET http://localhost:5208/movies/5
+GET http://localhost:5208/movies/13
 
 ###
 POST http://localhost:5208/movies

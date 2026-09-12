@@ -7,9 +7,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddSingleton<MoviesClient>();
+var movieStoreUrl = builder.Configuration["MovieStoreUrl"]
+    ?? throw new Exception("MovieStoreUrl이 설정되지 않았습니다.");
+builder.Services.AddHttpClient<MoviesClient>(
+    client => client.BaseAddress = new Uri(movieStoreUrl));
+builder.Services.AddHttpClient<GenreClient>(
+    client => client.BaseAddress = new Uri(movieStoreUrl));
+
+//builder.Services.AddSingleton<MoviesClient>();
+//builder.Services.AddSingleton<GenreClient>();
+
+
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -18,9 +29,14 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 app.UseAntiforgery();
+app.UseStaticFiles();
+
+
 
 app.MapStaticAssets();
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+//app.MapRazorComponents<App>()
+//    .AddInteractiveServerRenderMode();
+app.MapFallbackToFile("/react/{*path}", "react/index.html");
+app.MapGet("/", () => Results.Redirect("/react/"));
 
 app.Run();

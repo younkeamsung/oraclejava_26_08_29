@@ -20,6 +20,7 @@ else
                 <th>장르</th>
                 <th class="text-end">가격</th>
                 <th>출시 년도</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -31,6 +32,20 @@ else
                     <td>@movie.Genre</td>
                     <td class="text-end">@movie.Price.ToString("C0")</td>
                     <td>@(movie.ReleaseYear)년</td>
+                    <td>
+                        <div>
+                            <a class="btn btn-primary me-2 role="button"
+                               href="@MovieUrl(movie.Id)">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="@GetDeleteModalId(movie)">
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                        </div>
+                        <DeleteMovie Movie="@movie" />
+                    </td>
                 </tr>
             }
         </tbody>
@@ -41,9 +56,14 @@ else
 
     private MovieSummary[]? movies; // null일수도 있다.
 
-    protected override void OnInitialized() // 사이트에 접속하게되면 한번만 호출된다.
+    protected override async Task OnInitializedAsync() // 사이트에 접속하게되면 한번만 호출된다.
     {
-        movies = MoviesClient.GetMovies();
-
+        movies = await MoviesClient.GetMoviesAsync();
     }
+
+    private static string MovieUrl(int id) => $"/editmovie/{id}";
+
+
+    private static string GetDeleteModalId(MovieSummary movie)
+        => $"#{DeleteMovie.GetModalId(movie)}";
 }

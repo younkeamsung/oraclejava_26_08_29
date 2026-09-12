@@ -1,0 +1,45 @@
+﻿@inject MoviesClient Client
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<div class="modal fade" id="@GetModalId(Movie)" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">@title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        @onclick="@Confirm">
+                    삭제
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public MovieSummary? Movie { get; set; }
+    private string title = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        title = $"{Movie?.Name}을/를 삭제하시겠습니까?";
+    }
+
+    public static string GetModalId(MovieSummary? movie)
+    {
+        ArgumentNullException.ThrowIfNull(movie);
+        return $"deleteModal_{movie.Id}";
+    }
+
+    private async Task Confirm()
+    {
+        Client.DeleteMovieAsync(Movie!.Id);
+        NavigationManager.Refresh();
+    }
+}

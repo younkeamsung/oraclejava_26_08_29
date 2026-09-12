@@ -1,10 +1,14 @@
 ﻿@page "/editmovie"
+@page "/editmovie/{id:int}"
 @inject NavigationManager NavigationManager
 @inject MoviesClient MoviesClient
+@inject GenreClient GenreClient
+@rendermode InteractiveServer
 
-<h3>영화 추가</h3>
+<PageTitle>@title</PageTitle>
+<h3>@title</h3>
 
-@if (genres is null)
+@if (genres is null || movie is null)
 {
     <p><em>로딩중....</em></p>
 }
@@ -13,10 +17,13 @@ else
     <div class="row">
         <div class="col-md-4">
             <EditForm Model="@movie" FormName="editMovie"
-                OnSubmit="HandleSubmit">
+                OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+                <!--<ValidationSummary />-->
                 <div class="mb-3">
                     <label for="name" class="form-label">제목:</label>
                     <InputText class="form-control" id="name" @bind-value="movie.Name"/>
+                    <ValidationMessage For="@(() => movie.Name)" />
 
                 </div>
                 <div class="mb-3">
@@ -28,46 +35,83 @@ else
                             <option value="@genre.Id">@genre.Name</option>
                         }
                     </InputSelect>
+                    <ValidationMessage For="@(() => movie.GenreId)" />
                 </div>
                 <div class="mb-3">
                     <label for="price" class="form-label">가격:</label>
                     <InputNumber class="form-control" id="price" @bind-value="movie.Price" />
+                    <ValidationMessage For="@(() => movie.Price)" />
 
                 </div>
                 <div class="mb-3">
                     <label for="releaseYear" class="form-label">출시년도:</label>
                     <InputNumber class="form-control" id="releaseYear" 
                     @bind-value="movie.ReleaseYear" />
+                    <ValidationMessage For="@(() => movie.ReleaseYear)" />
 
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">저장</button>
             </EditForm>
         </div>
     </div>
 }
 
 @code {
-    [SupplyParameterFromForm] //폼으로 파라미터를 보내주는 어노테이션
-    private MovieDetails movie { get; set; } = new()
-        {
-            Name = string.Empty,
-            ReleaseYear = DateOnly.FromDateTime(DateTime.UtcNow).Year // 영국시간
-        };
+    [Parameter]
+    public int? Id { get; set; }
 
-    private GenreClient genreClient = new();
+    [SupplyParameterFromForm] //폼으로 파라미터를 보내주는 어노테이션
+    private MovieDetails? movie { get; set; }
+
+
+    // private GenreClient genreClient = new();
     // private MoviesClient moviesClient = new();
 
     private Genre[]? genres;
+    private string title = string.Empty;
 
-    protected override void OnInitialized()
+    protected override async Task OnParametersSetAsync()
     {
-        genres = genreClient.GetGenres();
+        if(movie is not null)
+        {
+            return;
+        }
+
+        if(Id is not null)
+        {
+            movie = await MoviesClient.GetMovieAsync(Id.Value);
+            title = $"{movie.Name} 수정";
+        }
+        else
+        {
+            movie = new()
+            {
+                Name = string.Empty,
+                ReleaseYear = DateOnly.FromDateTime(DateTime.UtcNow).Year // 영국시간
+            };
+            title = "영화 추가";    
+        }
     }
 
-    private void HandleSubmit()
+    protected override async Task OnInitializedAsync()
     {
-        MoviesClient.AddMovie(movie);
+        genres = await GenreClient.GetGenresAsync();
+    }
+
+    private async Task HandleSubmit()
+    {
+        ArgumentNullException.ThrowIfNull(movie);
+        if(Id is null)
+        {
+            await MoviesClient.AddMovieAsync(movie);
+        }
+        else
+        {
+            movie.Id = Id.Value;
+            await MoviesClient.UpdateMovieAsync(movie);
+        }
+
         NavigationManager.NavigateTo("/");
     }
 }

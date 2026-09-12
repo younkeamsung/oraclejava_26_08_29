@@ -2,22 +2,8 @@
 
 namespace BlazorApp1.Clients;
 
-public class GenreClient
+public class GenreClient(HttpClient httpClient)
 {
-    private readonly Genre[] genres =
-        [
-            new(){
-                Id = 1,
-                Name = "액션/어드벤처"
-            },
-            new(){
-                    Id = 2,
-                    Name = "SF"
-                },
-            new(){
-                    Id = 1,
-                    Name = "드라마"
-                },
-        ];
-    public Genre[] GetGenres() => genres;
+    public async Task<Genre[]> GetGenresAsync()
+        => await httpClient.GetFromJsonAsync<Genre[]>("genres") ?? [];
 }
