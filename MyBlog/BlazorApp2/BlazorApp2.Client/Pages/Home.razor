@@ -1,0 +1,26 @@
+﻿@page "/"
+@using BlazorApp2.Client.Interfaces
+@using BlazorApp2.Client.Models
+@inject IBlogRepository _repository
+
+<PageTitle>Home</PageTitle>
+
+<h1>My Movie Blog</h1>
+
+<ul>
+    @foreach(var p in posts)
+    {
+        <li>
+            <a href="/Post/@p.Id">@p.Title</a>
+        </li>
+    }
+</ul>
+
+
+@code{
+    protected List<BlogPost> posts = new();
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await _repository.GetBlogPostsAsync(10, 0);
+    }
+}

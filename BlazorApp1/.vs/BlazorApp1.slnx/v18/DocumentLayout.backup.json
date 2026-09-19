@@ -95,8 +95,7 @@
               "RelativeToolTip": "BlazorApp1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-12T08:06:20.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T08:06:20.035Z"
             },
             {
               "$type": "Document",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwAcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T07:07:12.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T07:07:12.882Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "BlazorApp1\\Validations\\MoviePriceAttribute.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T06:53:30.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T06:53:30.355Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "BlazorApp1\\Models\\MovieSummary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T04:13:52.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T04:13:52.805Z"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-12T03:07:30.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T03:07:30.177Z"
             },
             {
               "$type": "Document",
@@ -160,8 +155,7 @@
               "RelativeToolTip": "BlazorApp1\\Models\\MovieDetails.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAywBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T05:40:32.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T05:40:32.523Z"
             },
             {
               "$type": "Document",
@@ -173,8 +167,7 @@
               "RelativeToolTip": "BlazorApp1\\Clients\\MoviesClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T04:59:22.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T04:59:22.872Z"
             },
             {
               "$type": "Document",
@@ -186,8 +179,7 @@
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T05:27:04.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T05:27:04.086Z"
             },
             {
               "$type": "Document",
@@ -199,8 +191,7 @@
               "RelativeToolTip": "BlazorApp1\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvx0AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T07:22:20.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T07:22:20.122Z"
             },
             {
               "$type": "Document",
@@ -212,8 +203,7 @@
               "RelativeToolTip": "BlazorApp1\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-06T07:46:47.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T07:46:47.515Z"
             },
             {
               "$type": "Document",
@@ -225,8 +215,7 @@
               "RelativeToolTip": "BlazorApp1\\Models\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T06:07:41.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T06:07:41.832Z"
             },
             {
               "$type": "Document",
@@ -238,8 +227,7 @@
               "RelativeToolTip": "BlazorApp1\\Clients\\GenreClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T06:09:23.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T06:09:23.302Z"
             },
             {
               "$type": "Document",
@@ -251,8 +239,7 @@
               "RelativeToolTip": "BlazorApp1\\Converters\\StringConverter.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T06:16:32.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T06:16:32.293Z"
             },
             {
               "$type": "Document",
@@ -264,8 +251,7 @@
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-06T02:25:49.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-06T02:25:49.233Z"
             }
           ]
         }

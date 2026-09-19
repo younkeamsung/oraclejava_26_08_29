@@ -1,0 +1,41 @@
+﻿@page "/admin/blogposts"
+@inject IBlogRepository _repository
+@rendermode InteractiveServer
+@attribute [StreamRendering]
+
+
+<h3>BlogPostList</h3>
+
+<a href="/admin/blogposts/new">블로그 글쓰기</a>
+
+@if(posts?.Count == 0)
+{
+    <p>글이 없습니다.</p>
+}
+else if(posts == null)
+{
+    <p>로딩중..</p>
+}
+else
+{
+    <ul>
+        @foreach(var p in posts)
+        {
+            <li>
+                @p.PublishDate
+                <a href="/admin/blogposts/@p.Id">@p.Title</a>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<BlogPost>? posts = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(3000);
+        var numberOfPosts = await _repository.GetBlogPostCountAsync();
+        posts = await _repository.GetBlogPostsAsync(numberOfPosts, 0);
+    }
+}

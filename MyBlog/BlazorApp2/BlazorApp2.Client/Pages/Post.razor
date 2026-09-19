@@ -1,0 +1,20 @@
+﻿@page "/post/{BlogPostId}"
+@inject IBlogRepository _repository
+
+@if(BlogPost != null)
+{
+    <PageTitle>@BlogPost.Title</PageTitle>
+    <h3>Post</h3>
+    @BlogPost.Text
+}
+
+@code {
+    [Parameter]
+    public string BlogPostId { get; set; }
+    public BlogPost? BlogPost { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        BlogPost = await _repository.GetBlogPostAsync(BlogPostId);
+    }
+}

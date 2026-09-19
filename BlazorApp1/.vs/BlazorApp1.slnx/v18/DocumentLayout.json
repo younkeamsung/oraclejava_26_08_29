@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\BlazorApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\wwwroot\\react\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\react\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\moviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\moviesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\moviesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\deletemovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\a\\source\\repos\\blazorapp1\\blazorapp1\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\wwwroot\\react\\index.html",
               "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\react\\index.html",
@@ -87,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MovieReleaseYearAttribute.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Validations\\MovieReleaseYearAttribute.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MoviePriceAttribute.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Validations\\MoviePriceAttribute.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Validations\\MoviePriceAttribute.cs",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MovieSummary.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieSummary.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Models\\MovieSummary.cs",
@@ -135,31 +135,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "DeleteMovie.razor",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
               "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
               "RelativeToolTip": "BlazorApp1\\Components\\Pages\\DeleteMovie.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-12T03:07:30.177Z"
+              "WhenOpened": "2026-09-12T03:07:30.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "MovieDetails.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieDetails.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Models\\MovieDetails.cs",
               "ToolTip": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Models\\MovieDetails.cs",
               "RelativeToolTip": "BlazorApp1\\Models\\MovieDetails.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywBUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T05:40:32.523Z"
+              "WhenOpened": "2026-09-06T05:40:32.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MoviesClient.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Clients\\MoviesClient.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Clients\\MoviesClient.cs",
@@ -171,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EditMovie.razor",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Components\\Pages\\EditMovie.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\EditMovie.razor",
@@ -183,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
@@ -195,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\A\\source\\repos\\BlazorApp1\\BlazorApp1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\Properties\\launchSettings.json",

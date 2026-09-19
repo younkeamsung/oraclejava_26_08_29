@@ -1,0 +1,54 @@
+﻿@page "/admin/blogposts/new"
+@page "/admin/blogposts/{Id}"
+@inject IBlogRepository _repository
+@inject NavigationManager _manager
+@rendermode InteractiveServer
+
+<h3>BlogPostEdit</h3>
+
+<EditForm Model="Post" FormName="BlogPostForm" OnValidSubmit="SavePost">
+    <DataAnnotationsValidator />
+    제목: <InputText @bind-Value="Post.Title" />
+    <ValidationMessage For="() => Post.Title" />
+    <br/>
+    <InputDate @bind-Value="Post.PublishDate" />
+    <ValidationMessage For="() => Post.PublishDate" />
+    <br/>
+    <InputTextArea @bind-Value="Post.Text" />
+    <ValidationMessage For="() => Post.Text" />
+    <br/>
+    <button type="submit" class="btn btn-success">저장</button>
+    <button class="btn btn-secondary" @onclick="GoToBlogPosts">취소</button>
+
+</EditForm>
+
+@code {
+    [SupplyParameterFromForm]
+    BlogPost Post { get; set; } = new();
+    [Parameter]
+    public string? Id { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if(Id != null)
+        {
+            var p = await _repository.GetBlogPostAsync(Id);
+            if(p != null)
+            {
+                Post = p;
+
+            }
+        }
+    }
+
+    public async Task SavePost()
+    {
+        await _repository.SaveBlogPostAsync(Post);
+        _manager.NavigateTo("/admin/blogposts");
+    }
+
+    private void GoToBlogPosts()
+    {
+        _manager.NavigateTo("/admin/blogposts", true);
+    }
+}

@@ -1,0 +1,2 @@
+C:\Users\A\source\repos\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\A\source\repos\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json

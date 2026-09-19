@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A\\source\\repos\\MyBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2\\repositories\\blogrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\repositories\\blogrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\pages\\post.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\post.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|c:\\users\\a\\source\\repos\\myblog\\blazorapp2\\blazorapp2.client\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:34:12.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostEdit.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T06:01:36.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogPostList.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T05:50:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Post.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T05:33:12.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T05:10:38.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2\\Program.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T04:17:06.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogRepositoryDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T02:17:09.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\A\\source\\repos\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T00:58:38.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
